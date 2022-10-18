@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Silkscreen&display=swap');
+body{
+    width: 100%;
+    padding-left: 0;
+    background-image: linear-gradient(45deg,rgb(41, 39, 39), black);
+}
+.main-1 img{
+    max-width: 35%;
+    position:relative;
+    margin-top: 70px;
+}
+.main-1{
+    background-image: linear-gradient(45deg, blue, lightblue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+}
+.brand1 img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 300px;
+     filter: drop-shadow(1px 1px 0 white)
+        drop-shadow(-1px 1px 0 white)
+        drop-shadow(1px -1px 0 white)
+        drop-shadow(-1px -1px 0 white);
+}
+.main-2{
+    background-image: linear-gradient(45deg, grey, black);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.main-2 img{
+    margin-left: 10%;
+    max-width: 40%;
+    display: flex;
+}
+.brand2 img{
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 90px;
+    display: flex;
+    filter: drop-shadow(1px 1px 0 white)
+        drop-shadow(-1px 1px 0 white)
+        drop-shadow(1px -1px 0 white)
+        drop-shadow(-1px -1px 0 white);
+}
+.main-3{
+    background-image: linear-gradient(45deg, red, orange);
+    display: flex;
+}
+.main-3 img{
+    max-width: 40%;
+}
+#main-4{
+    background-image: linear-gradient(45deg, brown, orange );
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+#main-4 img{
+    max-width: 50%;
+    margin-left: 0%;
+}
+.footer{
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+}
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.items svg{
+    margin-left: 30px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+.footer svg:hover{
+    opacity: 1;
+
+}
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.app img{
+    padding: 20px;
+}
+.button {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.final ul{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    opacity: 0.5;
+}
+.txt{
+    position: relative;
+    text-align: center;
+    font-family:  'Monoton', cursive;
+    font-size: 100px;
+    background:linear-gradient(-70deg, #eef85b 5%, #7aec8d 53%, #09e5c3 91%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    letter-spacing: 4px;
+    background-size: 200%;
+    animation: animation 5s linear infinite ;
+    }
+@keyframes animation{
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
